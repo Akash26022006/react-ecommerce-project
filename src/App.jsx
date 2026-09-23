@@ -18,7 +18,7 @@ function App() {
   return (
     <CartProvider>
       <FavoritesProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/Shop-Mart">
           <Navbar />
           <CartToast />
             <Routes>
