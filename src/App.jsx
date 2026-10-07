@@ -12,13 +12,14 @@ import Register from "./pages/Register";
 import Products from "./pages/Products";
 import Footer from "./Components/Footer";
 import CartToast from "./Components/CartToast";
+import { HashRouter as Router } from "react-router-dom";
 
 
 function App() {
   return (
     <CartProvider>
       <FavoritesProvider>
-        <BrowserRouter basename="/Shop-Mart">
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Navbar />
           <CartToast />
             <Routes>

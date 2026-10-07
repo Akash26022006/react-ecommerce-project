@@ -50,7 +50,7 @@ function Footer() {
           <h3>Contact</h3>
 
           <p>📧 support@shopease.com</p>
-          <p>📞 +91 98765 43210</p>
+          <p>📞 +91 63693 XXXXX</p>
           <p>📍 Tamil Nadu, India</p>
         </div>
 
